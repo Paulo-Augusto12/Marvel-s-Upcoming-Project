@@ -8,7 +8,7 @@ interface ILayoutProps {
 export function Layout(props: ILayoutProps) {
   return (
     <>
-      <Box sx={{ height: "90vh", backgroundColor: '#8D1D1D', width: '100%' }}>
+      <Box sx={{ backgroundColor: "#8D1D1D", padding: "0 30px" }}>
         <Container>{props.children}</Container>
       </Box>
       <Footer />
